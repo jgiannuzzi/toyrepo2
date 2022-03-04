@@ -7,7 +7,7 @@ on:
 
 jobs:
   invoke-push:
-    uses: jgiannuzzi-org/toyrepo/.github/workflows/invoke_push.yml@main
+    uses: jgiannuzzi-org/toyrepo/.github/workflows/invoke-push.yml@main
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
